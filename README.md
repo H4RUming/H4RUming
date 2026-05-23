@@ -33,7 +33,7 @@ edge deployment.
 | | |
 |---|---|
 | Primary inference node | RTX PRO 6000 Blackwell (96GB VRAM), Ubuntu — university lab GPU I'm the primary operator of |
-| Edge node (home) | Jetson, L4T container builds for Open WebUI tooling |
+| Edge node (home) | Jetson, L4T container builds |
 | Network | Tailscale mesh across nodes |
 | Service split | vLLM / FastAPI proxy / tooling each in separate venvs and systemd units |
 
@@ -54,7 +54,7 @@ clients. Streams responses with background JSONL logging.
 
 **Inference & serving** — vLLM · Gemma · NVFP4 / FP8 quantization · MTP speculative decoding
 **Edge** — Jetson · L4T containers
-**Application** — FastAPI · async Python · Open WebUI
+**Application** — FastAPI · async Python
 **Infrastructure** — systemd · Tailscale · Docker · Ubuntu
 
 ### Reading & exploring
