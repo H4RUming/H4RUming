@@ -17,10 +17,9 @@ Here are some ideas to get you started:
 
 **English** · [한국어](README.ko.md)
 
-CS undergrad in Korea. I run a self-hosted LLM stack and learn AI
-inference by operating it.
-quantization, scheduling, memory management,
-edge deployment.
+CS undergrad in Korea. I run a self-hosted LLM stack and learn AI inference by operating it.
+
+quantization, scheduling, memory management, edge deployment.
 
 ### What I'm working on
 
