@@ -18,7 +18,8 @@ Here are some ideas to get you started:
 **English** · [한국어](README.ko.md)
 
 CS undergrad in Korea. I run a self-hosted LLM stack and learn AI
-inference by operating it — quantization, scheduling, memory management,
+inference by operating it.
+quantization, scheduling, memory management,
 edge deployment.
 
 ### What I'm working on
@@ -54,15 +55,15 @@ clients. Streams responses with background JSONL logging.
 
 ### Stack
 
-**Inference & serving** — vLLM · Gemma · NVFP4 / FP8 quantization · MTP speculative decoding
-**Edge** — Jetson · L4T containers
-**Application** — FastAPI · async Python
-**Infrastructure** — systemd · Tailscale · Docker · Ubuntu
+**Inference & serving** : vLLM · Gemma · NVFP4 / FP8 quantization · MTP speculative decoding
+**Edge** : Jetson · L4T containers
+**Application** : FastAPI · async Python
+**Infrastructure** : systemd · Tailscale · Docker · Ubuntu
 
 ### Reading & exploring
 
 - vLLM source (scheduler, KV cache manager, attention backends)
-- NVIDIA TensorRT-LLM documentation
+- NVIDIA TensorRT, LLM documentation
 - Speculative decoding (Leviathan et al., 2023)
 - PagedAttention and FlashAttention papers
 
