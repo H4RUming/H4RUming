@@ -3,8 +3,8 @@
 ## H4RUming
 
 한국에서 컴퓨터공학을 공부하는 학부생. self-hosted LLM 스택을 운영하면서
-AI 인퍼런스를 익히는 중 — quantization, scheduling, memory management,
-edge deployment.
+AI 인퍼런스를 익히는 중. 
+quantization, scheduling, memory management,edge deployment.
 
 ### 현재 작업
 
@@ -39,15 +39,15 @@ vLLM 앞단의 async FastAPI proxy. 4종 thinking-mode 포맷
 
 ### 스택
 
-**Inference & serving** — vLLM · Gemma · NVFP4 / FP8 quantization · MTP speculative decoding
-**Edge** — Jetson · L4T containers
-**Application** — FastAPI · async Python
-**Infrastructure** — systemd · Tailscale · Docker · Ubuntu
+**Inference & serving** : vLLM · Gemma · NVFP4 / FP8 quantization · MTP speculative decoding
+**Edge** : Jetson · L4T containers
+**Application** : FastAPI · async Python
+**Infrastructure** : systemd · Tailscale · Docker · Ubuntu
 
 ### 공부 중
 
 - vLLM 소스 (scheduler, KV cache manager, attention backends)
-- NVIDIA TensorRT-LLM 문서
+- NVIDIA TensorR, LLM 문서
 - Speculative decoding (Leviathan et al., 2023)
 - PagedAttention, FlashAttention 논문
 
