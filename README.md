@@ -50,11 +50,6 @@ Async FastAPI proxy in front of vLLM. Normalizes 4 thinking-mode formats
 `chat_template_kwargs.enable_thinking`) into one consistent surface for
 clients. Streams responses with background JSONL logging.
 
-**[Open-Chat-Brainrot](https://github.com/H4RUming/Open-Chat-Brainrot)** ·
-Microservice stack on Open WebUI with five tool services. Host / Jetson /
-public deployment profiles. CVE-2025-64496 mitigated with version pinning
-and permission narrowing.
-
 ### Stack
 
 **Inference & serving** — vLLM · Gemma · NVFP4 / FP8 quantization · MTP speculative decoding
