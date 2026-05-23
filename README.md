@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 
 ## H4RUming
 
+**English** · [한국어](README.ko.md)
+
 CS undergrad in Korea. I run a self-hosted LLM stack and learn AI
 inference by operating it — quantization, scheduling, memory management,
 edge deployment.
