@@ -2,9 +2,9 @@
 
 ## H4RUming
 
-한국에서 컴퓨터공학을 공부하는 학부생. self-hosted LLM 스택을 운영하면서
-AI 인퍼런스를 익히는 중. 
-quantization, scheduling, memory management,edge deployment.
+한국에서 컴퓨터공학을 공부하는 학부생. self-hosted LLM 스택을 운영하면서 AI 인퍼런스를 익히는 중.
+
+quantization, scheduling, memory management, edge deployment.
 
 ### 현재 작업
 
